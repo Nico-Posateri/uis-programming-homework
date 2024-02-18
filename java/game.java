@@ -22,23 +22,23 @@ public class Game {
 		case 2: System.out.print("scissors. ");
 		}
 		
-		System.out.print("You are ");
-		switch (user) {
+		System.out.print("You are "); // Prints the user's choice, listed below
+		switch (user) { // User choices:
 		case 0: System.out.print("rock. ");
 		case 1: System.out.print("paper. ");
 		case 2: System.out.print("scissors. ");
 		}
 		
 		if (NPC == user)
-			System.out.print("Stalemate.");
-		else {
+			System.out.print("Stalemate."); // Prints stalemate if the user and NPC choose the same case
+		else { // Else, calculate who wins based on rock-paper-scissors rules
 			boolean win = (user == 0 && NPC == 2)
 					|| (user == 1 && NPC == 0)
 					|| (user == 2 && NPC == 1);
 			if (win)
-				System.out.println("You won!");
+				System.out.println("You won!"); // Prints win if the user wins
 			else
-				System.out.println("You lost!");
+				System.out.println("You lost!"); // Prints loss if the user loses
 		}
 	}
 }
