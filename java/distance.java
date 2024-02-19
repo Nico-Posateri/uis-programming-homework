@@ -7,7 +7,7 @@ sqrt[(x2 - x1)^2(y2 - y1)^2]
 
 import java.util.Scanner; // Imports the Scanner class
 
-class distanceBetweenPoints {
+class Distance {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Creates a new Scanner object
 		System.out.print("Enter x1 and y1: ");
