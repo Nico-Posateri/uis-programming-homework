@@ -12,6 +12,8 @@ class poundsToKilos {
 		Scanner input = new Scanner(System.in); // Creates a new Scanner object
 		System.out.print("Type a number in pounds and press enter: ");
 		double pounds = input.nextDouble(); // Accepts user input to the pounds variable
+
+		input.close(); // Closes the Scanner input
 		
 		double kilograms = pounds * 0.454; // Converts pounds to kilograms
 		System.out.print(pounds + " pounds is " + kilograms + " killograms"); // Prints result
