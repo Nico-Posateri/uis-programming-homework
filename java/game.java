@@ -14,6 +14,8 @@ public class Game {
 		
 		System.out.print("Choose rock (0), paper (1), or scissors (2) and enter the number: ");
 		int user = input.nextInt(); // Accepts user input of 0, 1, or 2
+
+		input.close(); // Closes the Scanner input
 		
 		System.out.print("The NPC chose "); // Prints the computer's choice, listed below
 		switch (NPC) { // Computer choices:
