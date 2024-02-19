@@ -19,16 +19,16 @@ public class Game {
 		
 		System.out.print("The NPC chose "); // Prints the computer's choice, listed below
 		switch (NPC) { // Computer choices:
-		case 0: System.out.print("rock. ");
-		case 1: System.out.print("paper. ");
-		case 2: System.out.print("scissors. ");
+		case 0: System.out.print("rock. "); break;
+		case 1: System.out.print("paper. "); break;
+		case 2: System.out.print("scissors. "); break;
 		}
 		
-		System.out.print("You are "); // Prints the user's choice, listed below
+		System.out.print("You chose "); // Prints the user's choice, listed below
 		switch (user) { // User choices:
-		case 0: System.out.print("rock. ");
-		case 1: System.out.print("paper. ");
-		case 2: System.out.print("scissors. ");
+		case 0: System.out.print("rock. "); break;
+		case 1: System.out.print("paper. "); break;
+		case 2: System.out.print("scissors. "); break;
 		}
 		
 		if (NPC == user)
