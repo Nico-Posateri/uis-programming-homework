@@ -17,11 +17,13 @@ class distanceBetweenPoints {
 		System.out.print("Enter x2 and y2: ");
 		double x2 = input.nextDouble(); // Accepts user input for the second point's x
 		double y2 = input.nextDouble(); // Accepts user input for the second point's y
-		
-        // Subtracts x1 from x2, squares results, subtracts y1 from y2, squares results, then adds both results
-        double square = Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2);
-        double sqrRoot = Math.pow(square, 0.5); // Calculates the square root of the previous result
 
-        System.out.print("The distance between two points is " + sqrRoot); // Prints result
+		input.close(); // Closes the Scanner input
+		
+        	// Subtracts x1 from x2, squares results, subtracts y1 from y2, squares results, then adds both results
+        	double square = Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2);
+		double sqrRoot = Math.pow(square, 0.5); // Calculates the square root of the previous result
+
+        	System.out.print("The distance between two points is " + sqrRoot); // Prints result
 	}
 }
