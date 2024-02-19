@@ -7,7 +7,7 @@ converts it to kilograms, and displays the result.
 
 import java.util.Scanner; // Imports the Scanner class
 
-class poundsToKilos {
+class Conversion {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Creates a new Scanner object
 		System.out.print("Type a number in pounds and press enter: ");
