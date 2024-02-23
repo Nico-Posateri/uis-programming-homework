@@ -44,3 +44,5 @@ public class Game {
 		}
 	}
 }
+
+// Might be fun to make the game loop for 3 rounds, then calculate the overall winner.
