@@ -13,21 +13,21 @@ public class Phone {
 
 		input.close(); // Closes the Scanner input
 
-		boolean isValid =
-			(ssn.length() == 11) &&
-		        (Character.isDigit(ssn.charAt(0)) &&
-                        (Character.isDigit(ssn.charAt(1)) &&
-                        (Character.isDigit(ssn.charAt(2)) &&
-		        (ssn.charAt(3) == '-') &&
-		        (Character.isDigit(ssn.charAt(4)) &&
-                        (Character.isDigit(ssn.charAt(5)) &&
+		boolean isValid = // User input is valid if . . .
+			(ssn.length() == 11) && // Input is exactly 11 characters
+		        (Character.isDigit(ssn.charAt(0))) && // The first character is a number
+                        (Character.isDigit(ssn.charAt(1))) && // The second character is a number
+                        (Character.isDigit(ssn.charAt(2))) && // The third character is a number
+		        (ssn.charAt(3) == '-') && // The 4th character is a '-'
+		        (Character.isDigit(ssn.charAt(4))) && // etcetera . . .
+                        (Character.isDigit(ssn.charAt(5))) &&
 		        (ssn.charAt(6) == '-') &&
-		        (Character.isDigit(ssn.charAt(7)) &&
-                        (Character.isDigit(ssn.charAt(8)) &&
-                        (Character.isDigit(ssn.charAt(9)) &&
-                        (Character.isDigit(ssn.charAt(10));
+		        (Character.isDigit(ssn.charAt(7))) &&
+                        (Character.isDigit(ssn.charAt(8))) &&
+                        (Character.isDigit(ssn.charAt(9))) &&
+                        (Character.isDigit(ssn.charAt(10)));
 
-		// Currently validates any string of exactly 11 characters
+		// Prints valid or invalid based on check above
 		System.out.print(ssn + " is " + ((isValid) ? "a valid" : "an invalid") + " SSN");
         }
 }
