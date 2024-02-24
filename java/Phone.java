@@ -37,6 +37,7 @@ public class Phone {
 			System.out.print(letter + " is an invalid input"); // Prints for non-letter inputs
 		}
 	}
+}
 
 /*///////////////////////// First attempt, before Chapter 4 lecture: //////////////////////////
                 
