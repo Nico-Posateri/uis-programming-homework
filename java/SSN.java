@@ -11,8 +11,13 @@ public class Phone {
 	        System.out.print("Enter an SSN: "); // Asks user for a valid SSN
 		String ssn = input.nextLine();
 
-		// Implement check for proper length, format
+		input.close(); // Closes the Scanner input
 
-		System.out.print(ssn + " is a valid SSN"); // Currently says anything is valid
+		// Implement check for digits only, format with '-'
+		boolean isValid =
+			(ssn.length() == 11);
+
+		// Currently validates any string of exactly 11 characters
+		System.out.print(ssn + " is " + ((isValid) ? "a valid" : "an invalid") + " SSN");
         }
 }
