@@ -9,7 +9,7 @@ import java.util.Scanner; // Imports the Scanner class
 public class Phone {
         public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Creates a new Scanner object
-		System.out.println("Enter a letter: "); // Asks user for a letter
+		System.out.print("Enter a letter: "); // Asks user for a letter
 		char letter = input.next().charAt(0);
 		letter = Character.toUpperCase(letter); // Converts letter to uppercase, negates need for lowercase cases
 
