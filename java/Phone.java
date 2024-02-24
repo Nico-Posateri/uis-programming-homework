@@ -10,6 +10,16 @@ public class Phone {
         public static void main(String[] args) {
 		Scanner input = new Scanner(System.in); // Creates a new Scanner object
 		System.out.println("Enter a letter: ");
+	}
+
+/*///////////////////////// First attempt, before Chapter 4 lecture: //////////////////////////
+                
+import java.util.Scanner; // Imports the Scanner class
+
+public class Phone {
+        public static void main(String[] args) {
+                Scanner input = new Scanner(System.in); // Creates a new Scanner object
+		System.out.println("Enter a letter: ");
 		char letter = input.next().charAt(0); // Accepts user input for a single letter
 
                 input.close(); // Closes the Scanner input
@@ -62,3 +72,5 @@ public class Phone {
 		}
     }
 }
+
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
