@@ -13,9 +13,13 @@ public class Phone {
 
 		input.close(); // Closes the Scanner input
 
-		// Implement check for digits only, format with '-'
 		boolean isValid =
 			(ssn.length() == 11);
+		        // digit at char 0, 1, 2
+		        // '-' at char 3
+		        // digit at char 4, 5
+		        // '-' at char 6
+		        // digit at char 7, 8, 9, 10
 
 		// Currently validates any string of exactly 11 characters
 		System.out.print(ssn + " is " + ((isValid) ? "a valid" : "an invalid") + " SSN");
