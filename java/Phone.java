@@ -13,6 +13,8 @@ public class Phone {
 		char letter = input.next().charAt(0);
 		letter = Character.toUpperCase(letter); // Converts letter to uppercase, negates need for lowercase cases
 
+		input.close(); // Closes the Scanner input
+		
 		int number = 0; // A new value will be applied below, depending on chosen letter
 		if(Character.isLetter(letter)) { // If the user's input is a letter . . .
 			if(letter >= 'W') // Letter is W, X, Y, or Z
