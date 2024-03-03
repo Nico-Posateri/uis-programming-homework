@@ -13,7 +13,9 @@ public class Pyramid {
 		
 		input.close(); // Closes the Scanner input
 
-  // Prints the pyramid
+		// Logic . . .
+
+                // Prints the pyramid
 		System.out.println();
         }
 }
