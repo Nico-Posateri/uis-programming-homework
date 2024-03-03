@@ -16,8 +16,19 @@ public class Pyramid {
 
 		// While the number of lines to print is less than the user's input number, print lines . . .
 		for (int linesPrinted = 1; linesPrinted <= linesRequested; linesPrinted++) {
-			// Fill content of lines . . .
-			
+			// Prints descending numbers for current line
+			for (int descNum = linesPrinted; descNum >= 2; descNum--) {
+				System.out.print(descNum + " ");
+			}
+                        // Prints ascending numbers for current line
+			for (int ascNum = 1; ascNum <= linesPrinted; ascNum++) {
+				System.out.print(ascNum + " ");
+			}
+			// Prints the spaces for current line
+			for (int space = linesRequested - linesPrinted; space >= 1; space--) {
+				System.out.print("   ");
+			}
+                        // Finishes printing the current line
 			System.out.println();
 		}
         }
