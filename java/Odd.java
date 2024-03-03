@@ -13,9 +13,14 @@ public class Odd {
 		input.close(); // Closes the Scanner input
 
 		// Pull odd characters from string
-		// . . .
+		String oddCharacters = "";
+
+		// Logic for determining and holding odd characters
+		for (a; b; c) {
+			// Calc
+		}
 
 		// Prints the odd characters from the entered string
-		System.out.println("Odd characters here!");
+		System.out.println(oddCharacters);
         }
 }
