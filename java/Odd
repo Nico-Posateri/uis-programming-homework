@@ -1,0 +1,13 @@
+/*
+A program that prompts the user to enter a string and displays the characters at odd positions.
+*/
+
+import java.util.Scanner; // Imports the Scanner class
+
+public class Odd {
+        public static void main(String[] args) {
+		            Scanner input = new Scanner(System.in); // Creates a new Scanner object
+
+		            input.close(); // Closes the Scanner input
+        }
+}
