@@ -6,8 +6,8 @@ import java.util.Scanner; // Imports the Scanner class
 
 public class Odd {
         public static void main(String[] args) {
-		            Scanner input = new Scanner(System.in); // Creates a new Scanner object
+	        Scanner input = new Scanner(System.in); // Creates a new Scanner object
 
-		            input.close(); // Closes the Scanner input
+		input.close(); // Closes the Scanner input
         }
 }
