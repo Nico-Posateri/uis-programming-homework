@@ -34,7 +34,7 @@ public class Pyramid {
         }
 }
 
-/*//////////////////////////// Another version, reoccuring issue: ////////////////////////////////////////////
+/*///////////////////////////////// Another version, reoccurring issue: //////////////////////////////////////
 //
 // I was having an issue with the above program, where a number of lines greater than 9 would
 // print uneven, like so:
