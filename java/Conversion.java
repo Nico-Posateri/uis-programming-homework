@@ -19,5 +19,3 @@ public class Conversion {
 		System.out.print(pounds + " pounds is " + kilograms + " killograms"); // Prints result
 	}
 }
-
-// TRYING to fix indentation...
