@@ -10,7 +10,7 @@ or "Invalid Password" otherwise. The rules are:
 import java.util.Scanner; // Imports the Scanner class
 
 public class Password {
-  public static void main(String[] args) {
-    // . . .
-  }
+    public static void main(String[] args) {
+        // . . .
+    }
 }
