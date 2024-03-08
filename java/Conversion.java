@@ -2,7 +2,7 @@
 A program that converts pounds into kilograms.
 The program prompts the user to enter a number in pounds,
 converts it to kilograms, and displays the result.
-1 pound is 0.454 kilograms.
+1 pound is equal to 0.454 kilograms.
 */
 
 import java.util.Scanner; // Imports the Scanner class
