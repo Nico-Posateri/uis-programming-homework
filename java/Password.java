@@ -31,21 +31,32 @@ public class Password {
 		int MINIMUM_NUMBER_OF_DIGITS = 2;
 
 		boolean validPassword = 
-			isLengthValid(password, MINIMUM_NUMBER_OF_CHARACTERS) && 
-			isOnlyLettersAndDigits(password) && 
-			hasMinimumDigits(password, MINIMUM_NUMBER_OF_DIGITS);
+			lengthValid(password, MINIMUM_NUMBER_OF_CHARACTERS) && 
+			lettersAndDigits(password) && 
+			minimumDigits(password, MINIMUM_NUMBER_OF_DIGITS);
 
 		return validPassword;
 	}
 	// Method to determine if the password is of valid length, a minimum of 8 characters:
-	public static boolean isLengthValid() {
+	public static boolean lengthValid(String password, int validLength) {     
+                return password.length() >= validLength; // Passes a password that meets minimum length requirement
 	}
 
 	// Method to determine if the password contains only letters and digits:
-	public static boolean isOnlyLettersAndDigits() {
+	public static boolean lettersAndDigits(String password) {
+		for (i = 0; i < password.length(); i++) {
+			for (!Character.letterOrDigit(password.charAt(i))) {
+				return false; // Flags characters that are not a letter or digit, returns false for invalid
+			}
+		}
+		return true; // If all characters pass the check, lettersAndDigits is true
 	}
 
 	// Method to check if the password has the minimum number of digits:
-	public static boolean hasMinimumDigits() {
+	public static boolean minimumDigits(String password, int m) {
+		int digits = 0; // Set to count number of digits in the password
+		for (i = 0; i < password.length(); i++) {
+			//...
+		}
 	}
 }
