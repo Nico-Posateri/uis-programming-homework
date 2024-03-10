@@ -44,7 +44,7 @@ public class Password {
 
 	// Method to determine if the password contains only letters and digits:
 	public static boolean lettersAndDigits(String password) {
-		for (i = 0; i < password.length(); i++) {
+		for (int i = 0; i < password.length(); i++) {
 			if (!Character.letterOrDigit(password.charAt(i))) {
 				return false; // Flags characters that are not a letter or digit, returns false for invalid
 			}
@@ -55,7 +55,7 @@ public class Password {
 	// Method to check if the password has the minimum number of digits:
 	public static boolean minimumDigits(String password, int m) {
 		int numOfDigits = 0; // Set to count number of digits in the password
-		for (i = 0; i < password.length(); i++) {
+		for (int i = 0; i < password.length(); i++) {
 			if (Character.isDigit(password.charAt(i))) {
 				numOfDigits++; // Increments detected number of digits, looking for minimum of 2
 			}
