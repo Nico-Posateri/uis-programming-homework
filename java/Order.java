@@ -20,7 +20,7 @@ public class Order {
     	}
     	// Sorts the numbers input above in ascending order, returns result to above call:
     	public static void displaySortedNumbers(double num1, double num2, double num3) {
-		// Determine which of n1, n2, n3 is the highest, lowest...
+		// Determine which of num1, num2, num3 is the highest, lowest...
 		if (num1 > num2) {
 			double temp = num1;
 			num1 = num2;
