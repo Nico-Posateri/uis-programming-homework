@@ -9,13 +9,13 @@ public class Sorting {
 		Scanner input = new Scanner(System.in); // Creates a new Scanner object
 	        System.out.print("Enter list: "); // Asks user to enter a list
 		int[] list = new int[input.nextInt()];
-		for (int i = 0; i < lost.length; i++) {
+		for (int i = 0; i < list.length; i++) {
 			list[i] = input.nextInt();
 		}
 
 		input.close(); // Closes the Scanner input
 
-		System.out.println(isSorted(list) ? "The list is already sorted." : "The list is not sorted.");
+		System.out.println("The list is " + (isSorted(list) ? "already sorted." : "not sorted."));
 	}
 
 	public static boolean isSorted(int[] list) {
