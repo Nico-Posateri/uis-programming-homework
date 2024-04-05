@@ -26,7 +26,7 @@ public class Grades {
 
 		getGrades(scores, grades); // Fetches the grades after they're assigned by scores
 
-		for (int i = o; i < scores.length; i++) {
+		for (int i = o; i < scores.length; i++) { // Prints the student scores along with corresponding grades
 			system.out.println("Student " + i + " score is " + scores[i] + " and grade is " + grades[i]);
 		}
 	}
