@@ -15,7 +15,7 @@ import java.util.Scanner; // Imports the Scanner class
 
 public class Location {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in); // Creates a new Scanner object
+        Scanner input = new Scanner(System.in); // Creates a new Scanner object
         // Asks user to enter the number of rows and columns in the array
 	System.out.print("Enter the number of rows and columns in the array: ");
         int rows = input.nextInt(); // Accepts a number for the rows
