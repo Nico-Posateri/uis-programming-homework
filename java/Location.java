@@ -18,14 +18,14 @@ public class Location {
         Scanner in = new Scanner(System.in); // Creates a new Scanner object
         // Asks user to enter the number of rows and columns in the array
 	System.out.print("Enter the number of rows and columns in the array: ");
-        int rows = in.nextInt(); // Accepts a number for the rows
-        int columns = in.nextInt(); // Accepts a number for the columns
+        int rows = input.nextInt(); // Accepts a number for the rows
+        int columns = input.nextInt(); // Accepts a number for the columns
 	double[][] userArray = new double[rows][columns];
         // Asks user to enter the array, established above
 	System.out.println("Enter the array: ");
 	for (int i = 0; i < userArray.length; i++) {
 		for (int j = 0; j < userArray[i].length; j++) {
-			userArray[i][j] = in.nextDouble();
+			userArray[i][j] = input.nextDouble();
 		}
 	}
 	input.close(); // Closes the Scanner input
