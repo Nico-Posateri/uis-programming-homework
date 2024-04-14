@@ -41,6 +41,7 @@ public class Location {
 			if (largest < a[i][j]) {
 				largest = a[i][j];
 				location[0] = i;
+				location[1] = j;
 			}
 		}
 	}
