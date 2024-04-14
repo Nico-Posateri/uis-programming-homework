@@ -3,7 +3,7 @@ A program that prompts the user to enter a two-dimensional array and displays th
 the largest element in the array by the following instructions:
 
 1) Design a class named Location for locating a maximal value and its location in a two-dimensional array,
-containing a public data field maxValue storing the maximal value as a double type and a public data fields row and column
+containing a public data field maxValue storing the maximal value as a double type and public data fields row and column
 storing the indices in a two-dimensional array as int types.
 
 2) Write a method named locateLargest for returning the location of the largest element in a two-dimensional array.
@@ -35,11 +35,11 @@ public class Location {
 
     public static int[] locateLargest(double[][] a) {
         int[] location = new int[]{ 0, 0 };
-	double maxValue = a[0][0];
+	double largest = a[0][0];
 	for (int i = 0; i < a.length; i++) {
 		for (int j = 0; j < a[i].length; j++) {
-			if (maxValue < a[i][j]) {
-				maxValue = a[i][j];
+			if (largest < a[i][j]) {
+				largest = a[i][j];
 				location[0] = i;
 				location[1] = j;
 			}
