@@ -8,7 +8,7 @@ storing the indices in a two-dimensional array as int types.
 
 2) Write a method named locateLargest for returning the location of the largest element in a two-dimensional array.
 Note that the return value is an instance of Location.
-         public static Location locateLargest (double [ ][ ]  a)
+         public static Location locateLargest (double[][] a)
 */
 
 import java.util.Scanner; // Imports the Scanner class
@@ -33,7 +33,7 @@ public class Location {
 	System.out.printf("The location of the largest element is __ at (%d, %d)."); // Prints the location of the largest element
     }
 
-    public static Location locateLargest (double [ ][]  a) {
+    public static Location locateLargest (double[][] a) {
         int[] location = new int[]{ 0, 0 };
 	double largest = a[0][0];
 	for (int i = 0; i < a.length; i++) {
