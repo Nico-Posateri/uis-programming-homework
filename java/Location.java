@@ -29,8 +29,8 @@ public class Location {
 		}
 	}
 	input.close(); // Closes the Scanner input
-	int location = locateLargest(userArray); // Pulls the location of the largest element from method locateLargest
-	System.out.printf("The location of the largest element is __ at (%d, %d)."); // Prints the location of the largest element
+	int[] location = locateLargest(userArray); // Pulls the location of the largest element from method locateLargest
+	System.out.printf("The location of the largest element is __ at (%d, %d).", location[0], location[1]); // Prints the location of the largest element
     }
 
     public static int[] locateLargest(double[][] a) {
