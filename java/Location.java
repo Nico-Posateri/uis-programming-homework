@@ -33,7 +33,7 @@ public class Location {
 	System.out.printf("The location of the largest element is __ at (%d, %d)."); // Prints the location of the largest element
     }
 
-    public static Location locateLargest (double[][] a) {
+    public static int[] locateLargest(double[][] a) {
         int[] location = new int[]{ 0, 0 };
 	double largest = a[0][0];
 	for (int i = 0; i < a.length; i++) {
