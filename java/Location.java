@@ -18,25 +18,25 @@ public class Location {
         Scanner in = new Scanner(System.in); // Creates a new Scanner object
         // Asks user to enter the number of rows and columns in the array
 	System.out.print("Enter the number of rows and columns in the array: ");
-        int rows = input.nextInt(); // Accepts a number for the rows
+        int rows = in.nextInt(); // Accepts a number for the rows
         int columns = in.nextInt(); // Accepts a number for the columns
-	double[][] array = new double[rows][columns];
+	double[][] userArray = new double[rows][columns];
         // Asks user to enter the array, established above
 	System.out.println("Enter the array: ");
-	for (int i = 0; i < array.length; i++) {
-		for (int j = 0; j < array[i].length; j++) {
-			array[i][j] = in.nextDouble();
+	for (int i = 0; i < userArray.length; i++) {
+		for (int j = 0; j < userArray[i].length; j++) {
+			userArray[i][j] = in.nextDouble();
 		}
 	}
 	input.close(); // Closes the Scanner input
-	int location = locateLargest(array); // Pulls the location of the largest element from method locateLargest
-	System.out.printf("The location of the largest element is __ at (%d, %d)."; // Prints the location of the largest element
+	int location = locateLargest(userArray); // Pulls the location of the largest element from method locateLargest
+	System.out.printf("The location of the largest element is __ at (%d, %d)."); // Prints the location of the largest element
     }
 
     public static Location locateLargest (double [ ][]  a) {
         int[] location = new int[]{ 0, 0 };
 	double largest = a[0][0];
-	for (int i = 0; i < array.length; i++) {
+	for (int i = 0; i < a.length; i++) {
 		for (int j = 0; j < a[i].length; j++) {
 			if (largest < a[i][j]) {
 				largest = a[i][j];
