@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(babyblue 70%, white);
+  background-color: royalblue; /* If browser does not support gradients */
+  /* background: linear-gradient(royalblue 60%, white); */
 }
 
 h1 {
