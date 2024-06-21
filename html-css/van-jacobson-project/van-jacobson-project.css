@@ -1,5 +1,5 @@
-* {
-  background-color: linear-gradient(babyblue, white);
+body {
+  background: linear-gradient(babyblue 70%, white);
 }
 
 h1 {
