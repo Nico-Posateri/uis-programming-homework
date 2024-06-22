@@ -23,7 +23,7 @@ The instructions were as follows:
    - **Gallery Page**
      - Collection of images and multimedia related to the founder’s work and life.
      - Include captions and brief descriptions for each item.
-   - References Page
+   - **References Page**
      - List of all sources used for research. Include citations for images and videos. The sources must be original.
      - Ensure all sources are cited properly using a consistent citation style (e.g., APA, MLA).
 
