@@ -18,3 +18,17 @@ footer > p {
   color: darkgrey;
   font-family: "Times New Roman";
 }
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 210px 210px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 10px;
+}
