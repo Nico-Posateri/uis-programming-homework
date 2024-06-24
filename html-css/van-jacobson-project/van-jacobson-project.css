@@ -36,3 +36,7 @@ figure {
   padding: 5px;
   margin: 10px;
 }
+
+figcaption {
+  color: white;
+}
