@@ -1,6 +1,5 @@
 body {
-  background-color: royalblue; /* If browser does not support gradients */
-  /* background: linear-gradient(royalblue 60%, white); */
+  background-color: royalblue;
 }
 
 h1 {
@@ -26,7 +25,8 @@ footer > p {
 
 #grid-container {
   display: grid;
-  grid-template-columns: 210px 210px;
+  grid-template-columns: auto auto auto;
+  /* grid-template-columns: 210px 210px; */
 }
 
 figure {
