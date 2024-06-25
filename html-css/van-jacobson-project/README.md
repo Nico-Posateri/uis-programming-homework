@@ -28,6 +28,6 @@ The instructions were as follows:
      - Ensure all sources are cited properly using a consistent citation style (e.g., APA, MLA).
 
 4. **Technical Requirements:** The website should be created using HTML only, or HTML and CSS depending on your confidence level after two weeks of web design.
-   Do not use any commercial apps to create your websites. It will contain html and css that I will be able to tell you did not create.
+   Do not use any commercial apps to create your websites. It will contain HTML and CSS that I will be able to tell you did not create.
    Use a simple IDE or a text editor such as Notepad++. At this stage of the course, the website does not have to be responsive,
    but the website should include elements to make it web accessible. Ensure all links are functional and the website is easy to navigate.
